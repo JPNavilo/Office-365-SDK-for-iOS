@@ -37,29 +37,6 @@ root for authoritative license information.﻿
 }
 
 
-- (void)setAltitude:(MSOutlookDouble *) altitude {
-    _altitude = altitude;
-	[self valueChanged:altitude forProperty:@"Altitude"];
-}
-    
-- (void)setLatitude:(MSOutlookDouble *) latitude {
-    _latitude = latitude;
-	[self valueChanged:latitude forProperty:@"Latitude"];
-}
-    
-- (void)setLongitude:(MSOutlookDouble *) longitude {
-    _longitude = longitude;
-	[self valueChanged:longitude forProperty:@"Longitude"];
-}
-    
-- (void)setAccuracy:(MSOutlookDouble *) accuracy {
-    _accuracy = accuracy;
-	[self valueChanged:accuracy forProperty:@"Accuracy"];
-}
-    
-- (void)setAltitudeAccuracy:(MSOutlookDouble *) altitudeAccuracy {
-    _altitudeAccuracy = altitudeAccuracy;
-	[self valueChanged:altitudeAccuracy forProperty:@"AltitudeAccuracy"];
-}
+
     
 @end
