@@ -12,7 +12,7 @@ Licensed under the Apache License 2.0; see LICENSE in the source repository
 root for authoritative license information.﻿
 ******************************************************************************/
 
-@class MSOutlookDouble;
+
 
 #import <Foundation/Foundation.h>
 #import "MSOrcBaseEntity.h"
@@ -23,10 +23,10 @@ root for authoritative license information.﻿
 
 @interface MSOutlookGeoCoordinates : MSOrcBaseEntity
 
-@property (copy, nonatomic, readwrite, getter=altitude, setter=setAltitude:) MSOutlookDouble *Altitude;
-@property (copy, nonatomic, readwrite, getter=latitude, setter=setLatitude:) MSOutlookDouble *Latitude;
-@property (copy, nonatomic, readwrite, getter=longitude, setter=setLongitude:) MSOutlookDouble *Longitude;
-@property (copy, nonatomic, readwrite, getter=accuracy, setter=setAccuracy:) MSOutlookDouble *Accuracy;
-@property (copy, nonatomic, readwrite, getter=altitudeAccuracy, setter=setAltitudeAccuracy:) MSOutlookDouble *AltitudeAccuracy;
+@property (copy, nonatomic, readwrite, getter=altitude, setter=setAltitude:) NSString *Altitude;
+@property (copy, nonatomic, readwrite, getter=latitude, setter=setLatitude:) NSString *Latitude;
+@property (copy, nonatomic, readwrite, getter=longitude, setter=setLongitude:) NSString *Longitude;
+@property (copy, nonatomic, readwrite, getter=accuracy, setter=setAccuracy:) NSString *Accuracy;
+@property (copy, nonatomic, readwrite, getter=altitudeAccuracy, setter=setAltitudeAccuracy:) NSString *AltitudeAccuracy;
 
 @end
